@@ -11,23 +11,15 @@
     ],
     "repositories": [
         {
-            "type":"package",
-            "package": {
-                "name": "vecbralis/elfinder-flysystem-driver",
-                "version":"master",
-                "source": {
-                    "url": "https://github.com/vecbralis/elfinder-flysystem-driver.git",
-                    "type": "git",
-                    "reference":"master"
-                }
-            }
+            "type":"vcs",
+            "url": "https://github.com/vecbralis/elfinder-flysystem-driver"
         }
     ],
     "require": {
         "php": ">=5.4.0",
         "illuminate/support": "5.0.x|5.1.x|5.2.x|5.3.x|5.4.x",
         "studio-42/elfinder": "~2.1.10",
-        "vecbralis/elfinder-flysystem-driver": "master",
+        "vecbralis/elfinder-flysystem-driver": "dev-master",
         "league/flysystem": "^1.0",
         "league/flysystem-cached-adapter": "^1.0"
     },
